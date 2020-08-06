@@ -20,27 +20,12 @@ status of each individual recycling machine.
 The RMOS monitors a group of RCMs (in my demo, there are firstly 2 RCMs in the group before adding a new RCM). 
 The RMOS GUI interface provides the following functionality:
 (1) Login: Firstly, the administrator logs in with a username and password. (Username = admin, Password = 1234)​
-(2) Show all monitored RCMs: In the graphical interface of RMOS, each RCM monitored by this workstation is 
-represented with its machine number, location and an id as a list.
-(3) Add new RCMs: ​You can add a new machine to the RMOS by clicking the “A dd a new RCM”
-button, and the list will be refreshed.
-(4) Check RCM’s operational status/Activate RCM:You can check the operational status 
-of each machine by inputting machine number and clicking the “Check Status” button. 
-When the machine’s status is down, you cannot open the machine. After clicking the “Activate Machine” button, 
-the machine’s status becomes operational, you activate the recycling station in the group to accept items.
-(5) Change/add new types of recyclable items: You can add new types of recyclable items in the field of <Add New Item Type>. 
-By inputting the item type you want to change and the new item type, you can change types of recycle items.
+(2) Show all monitored RCMs
+(3) Add new RCMs
+(4) Check RCM’s operational status/Activate RCM
+(5) Change/add new types of recyclable items
 (6) Check the amount of money: You can check the money in each machine.
-(7) Check the current capacity(by weight): You can check the available capacity (by weight-lb)
-in each machine by inputting machine number and clicking the “Check Current Capacity” button. 
-If there is no more capacity, you will get a message that the machine is full and needs to be emptied.
-(8) Empty full RCM: By inputting machine number and clicking the “Empty the machine” button, 
-you can empty a machine which has no available capacity, and the machine will store the time of the last removal of its items. 
-If the machine is not full, you will get an error message and cannot empty it.
-(9) Check last emptied time: You can check the last emptied time of each machine by inputting machine number and clicking 
-the “Check Last Emptied Time” button.
-(10) Display the usage statistics for each RCM in the RCM group: Display the usage statistics with text and visual graph 
-for each machine by inputting the machine number and clicking the “Show Usage Statistics” button. 
-Usage statistics includes: weight of items collected in a month, total value (cash or coupons) issued in a month, 
-no. of items returned by machine in a month and the no. of times the machine was emptied in a month.
-
+(7) Check the current capacity(by weight)
+(8) Empty full RCM
+(9) Check last emptied time
+(10) Display the usage statistics for each RCM in the RCM group
